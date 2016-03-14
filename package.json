@@ -1,0 +1,28 @@
+{
+    "name": "seal-ui",
+    "description": "基于JQuery的ui控件",
+    "author": "tudousi",
+    "version": "0.0.1",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-umd": "^0.2.0",
+        "jasmine": "^2.4.1",
+        "bower": "^1.7.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tudousi/seal-ui"
+    },
+    "homepage": "https://github.com/tudousi/seal-ui",
+    "bugs": {
+        "url": "https://github.com/tudousi/seal-ui/issues"
+    },
+    "scripts": {
+        "test": "node tests"
+    },
+    "keywords": [
+        "seal-ui"
+    ],
+    "license": "MIT"
+}
