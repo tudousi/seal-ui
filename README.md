@@ -3,6 +3,6 @@
 
 ## 开发安装
 
-    * `bower install`
-    * `npm install`
-    * `run test/*.html`
+    * npm install
+    * bower install
+    * run test/*.html

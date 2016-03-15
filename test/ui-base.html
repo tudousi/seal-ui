@@ -7,6 +7,7 @@
     <script type="text/javascript" src="../dist/js/lib/jquery-1.12.1.js"></script>
     <script type="text/javascript" src="../dist/js/lib/SealModule.js"></script>
     <script type="text/javascript" src="../dist/js/lib/SealHotkeys.js"></script>
+    <script src="../build/SealLayout.js"></script>
     <script src="./js/i18n.js"></script>
     <style type="text/css">
         #container {
@@ -60,5 +61,30 @@
             </div>
         </div>
     </div>
+    <br>
+    <div id="container" style="height: 300px;">
+        <div class="sl-layout">
+            <div class="sl-layout__horizontal" style="width:500px;height:300px;">
+                <div class="sl-layout__horizontal" style="width:500px;height:300px;">
+                    <div class="sl-layout__cell" style="width:240px;height:300px;">
+                        <p>交通信息</p>
+                        <p>汉密尔顿岛A1码头 </p>
+                        <p>1) 巴士：汉密尔顿岛上有免费巴士环岛，可以到达岛上的码头附近。运营时间：07:00-23:00</p>
+                        <p>2) 高尔夫球车：汉密尔顿岛上可租高尔夫球车作为交通或观光，每车可坐2-4人，可按小时或整天租用</p>
+                    </div>
+                    <div class="sl-layout__cell" style="width:245px;height:300px;left:250px;">
+                        <p>实用攻略</p>
+                        <p>1) 艾尔利滩出发的行程含酒店到码头(Port of Airlie)接送，请提前10-15分钟到指定上车点候车，预订时请注明入住酒店名称，预订后会告知接送时间和具体地点，具体接送时间因不同酒店而异。详情请参考预定确认后发给你的电子票</p>
+                        <p>2) 汉密尔顿岛出发的游客请自行前往A1码头集合</p>
+                        <p>3) 白日梦岛出发的游客自行前往码头办理登船手续</p>
+                    </div>
+                    <div class="sl-layout__split" style="width:5px;height:300px;left:245px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var ui = new SealLayout;
+    </script>
 </body>
 </html>
