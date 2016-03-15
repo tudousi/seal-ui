@@ -8,7 +8,8 @@
         "gulp": "^3.9.1",
         "gulp-umd": "^0.2.0",
         "jasmine": "^2.4.1",
-        "bower": "^1.7.7"
+        "bower": "^1.7.7",
+        "gulp-less": "~3.0.5"
     },
     "repository": {
         "type": "git",

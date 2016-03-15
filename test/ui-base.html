@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-base</title>
+    <link rel="stylesheet" href="../build/css/layout.css">
+    <script type="text/javascript" src="../dist/js/lib/jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="../dist/js/lib/SealModule.js"></script>
+    <script type="text/javascript" src="../dist/js/lib/SealHotkeys.js"></script>
+    <script src="./js/i18n.js"></script>
+    <style type="text/css">
+        #container {
+            width: 500px;
+            height: 300px;
+            border: 5px solid #ccc;
+        }
+        /*test*/
+        .sl-layout {}
+        .sl-layout__vertical {}
+        .sl-layout__horizontal {}
+        .sl-layout__cell {}
+    </style>
+</head>
+<body>
+    <div id="container"> <!--horizontal-->
+        <div class="sl-layout">
+            <div class="sl-layout__vertical" style="width:500px;height:300px;">
+                <div class="sl-layout__horizontal" style="width: 500px;height: 145px;">
+                    <div class="sl-layout__cell" style="width:245px;height:145px;">
+                        <p>双体游船穿过美丽的圣灵群岛国家公园，驶向全澳排名第一的大堡礁---哈迪堡礁带。</p>
+                        <p>此行程是圣灵群岛唯一可前往外海大堡礁的游玩活动，海上平台将提供丰富多样的海上活动，是惠森迪必去活动，没有之一！</p>
+                        <p>驶向哈迪堡礁的高速双体游轮，有宽敞带空调的大厅、宽大的川外观景甲板以及供应茶点的酒吧和舒适的座位。</p>
+                        <p>往返珊瑚礁的旅程本身就是一次精彩的体验。沿途会经过壮观迷人的岛屿，在某些季节还能看到鲸鱼和海洋野生动物。途中，会为您介绍海上浮台的各种精彩水上项目。</p>
+                    </div>
+                    <div class="sl-layout__cell" style="width:250px;height:145px;left:250px;">
+                        <p>艾尔利滩出发</p>
+                        <p>08:00 码头乘坐游船出发前往外堡礁平台，途中享用自助式上午茶 </p>
+                        <p>11:00 到达外堡礁活动平台 </p>
+                        <p>11:00-15:00 外堡礁活动平台自由活动 </p>
+                        <p>18:10 抵达艾尔利滩</p>
+                    </div>
+                    <div class="sl-layout__split" style="width:5px;height:145px;left:245px;"></div>
+                </div>
+                <div class="sl-layout__vertical" style="width:500px;height:145px;top:150px;">
+                    <div class="sl-layout__cell" style="width:500px;height:70px;">
+                        <p>交通信息</p>
+                        <p>汉密尔顿岛A1码头 </p>
+                        <p>1) 巴士：汉密尔顿岛上有免费巴士环岛，可以到达岛上的码头附近。运营时间：07:00-23:00</p>
+                        <p>2) 高尔夫球车：汉密尔顿岛上可租高尔夫球车作为交通或观光，每车可坐2-4人，可按小时或整天租用</p>
+                    </div>
+                    <div class="sl-layout__cell" style="width:500px;height:70px;top:75px;">
+                        <p>实用攻略</p>
+                        <p>1) 艾尔利滩出发的行程含酒店到码头(Port of Airlie)接送，请提前10-15分钟到指定上车点候车，预订时请注明入住酒店名称，预订后会告知接送时间和具体地点，具体接送时间因不同酒店而异。详情请参考预定确认后发给你的电子票</p>
+                        <p>2) 汉密尔顿岛出发的游客请自行前往A1码头集合</p>
+                        <p>3) 白日梦岛出发的游客自行前往码头办理登船手续</p>
+                    </div>
+                    <div class="sl-layout__split" style="width:500px;height:5px;top:70px;"></div>
+                </div>
+                <div class="sl-layout__split" style="width:500px;height:5px;top:145px;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

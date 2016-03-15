@@ -1,0 +1,23 @@
+.sl-layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sl-layout__vertical,
+.sl-layout__horizontal {
+  overflow: hidden;
+}
+.sl-layout__vertical,
+.sl-layout__horizontal,
+.sl-layout__cell,
+.sl-layout__split {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sl-layout__cell {
+  overflow: auto;
+}
+.sl-layout__split {
+  background-color: #ccc;
+}
